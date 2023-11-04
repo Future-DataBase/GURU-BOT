@@ -9,18 +9,18 @@
   "env": {
     "DATABASE_URL": {
       "description": "your mongodb database url",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "mongodb+srv://salman:s4salmanyt@salmanahmad.jj7ymis.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "Guru_CoreyBennett"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "."
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
