@@ -17,10 +17,35 @@
       "required": true,
       "value": "Guru_CoreyBennett"
     },
+    "MODE": {
+      "description": "mode public or private",
+      "required": true,
+      "value": "public"
+    },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": true,
       "value": "."
+    },
+     "HKEY": {
+      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as above entered",
+      "required": true,
+      "value": ""
+    },
+    "statusview": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": ""
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
@@ -43,3 +68,4 @@
     }
   ]
 }
+
